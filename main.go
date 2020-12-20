@@ -14,6 +14,8 @@ import (
 	"syscall"
 	"time"
 
+	"tinylog"
+
 	"github.com/shadowsocks/go-shadowsocks2/core"
 	"github.com/shadowsocks/go-shadowsocks2/socks"
 )
@@ -99,6 +101,7 @@ func main() {
 				log.Fatal(err)
 			}
 		}
+		tinylog.LogDebug("haha")
 
 		udpAddr := addr
 
