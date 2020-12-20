@@ -6,7 +6,6 @@ require (
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
 	golang.org/x/sys v0.0.0-20200824131525-c12d262b63d8 // indirect
-	tinylog v0.0.0-00010101000000-000000000000
 )
 
 replace (
@@ -16,5 +15,4 @@ replace (
 	golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a => github.com/golang/sys v0.0.0-20190215142949-d0b11bdaac8a
 	golang.org/x/sys v0.0.0-20190412213103-97732733099d => github.com/golang/sys v0.0.0-20190412213103-97732733099d
 	golang.org/x/text v0.3.0 => github.com/golang/text v0.3.0
-	tinylog => ./tinylog
 )

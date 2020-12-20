@@ -14,8 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"tinylog"
-
+	"github.com/Howard0o0/go-shadowsocks2/tinylog"
 	"github.com/shadowsocks/go-shadowsocks2/core"
 	"github.com/shadowsocks/go-shadowsocks2/socks"
 )
